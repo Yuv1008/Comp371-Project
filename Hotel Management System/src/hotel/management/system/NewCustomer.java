@@ -76,12 +76,12 @@ public class NewCustomer extends JFrame {
         r2.setBounds(350, 191, 80, 20);
         contentPane.add(r2);
 
-        r3 = new JRadioButton("Others"); // Added
+        r3 = new JRadioButton("Others");
         r3.setBackground(Color.WHITE);
         r3.setBounds(440, 191, 80, 20);
         contentPane.add(r3);
 
-        // Grouping the gender radio buttons
+        
         ButtonGroup genderGroup = new ButtonGroup();
         genderGroup.add(r1);
         genderGroup.add(r2);
